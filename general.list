@@ -1,0 +1,14 @@
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,169.254.0.0/16,224.0.0.0/4,240.0.0.0/4
+dns-server = 119.28.28.28, https://doh.rixcloud.dev/dns-query, https://118.31.13.131/dns-query, https://120.25.25.166/dns-query, https://139.224.112.177/dns-query, https://47.108.56.233/dns-query, https://59.110.53.209/dns-query
+replica = false
+ipv6 = true
+show-error-page-for-reject = true
+exclude-simple-hostnames = true
+always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com
+network.framework = true
+internet-test-url = http://www.aliyun.com
+proxy-test-url = http://captive.rixcloud.io/generate_204
+enhanced-mode-by-rule = false
